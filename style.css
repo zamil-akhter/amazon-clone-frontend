@@ -21,8 +21,17 @@
   background-image: url("amazon-logo.png");
   color: #0f1111;
   background-size: cover;
+  margin: 6px;
   width: 120px;
   height: 40px;
   border-radius: 3px;
   filter: brightness(0.8) invert(1);
+}
+
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
 }
