@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.nav-logo {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  background-image: url("amazon-logo.png");
+  color: #0f1111;
+  background-size: cover;
+  width: 120px;
+  height: 40px;
+  border-radius: 3px;
+  filter: brightness(0.8) invert(1);
+}
