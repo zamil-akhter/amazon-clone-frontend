@@ -35,3 +35,19 @@
 .border:hover {
   border: 1.5px solid white;
 }
+
+.add-first {
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 1px;
+}
