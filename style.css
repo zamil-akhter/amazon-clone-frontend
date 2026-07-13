@@ -134,3 +134,56 @@
 .cart p {
   font-weight: 700;
 }
+
+/* Panel */
+.panel {
+  height: 40px;
+  width: 100%;
+  background-color: #232f3e;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+  height: 100%;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 10px;
+  font-size: 1.1rem;
+}
+.panel-menu {
+  font-weight: 600;
+}
+
+.panel-options {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  height: 100%;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.panel-options p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.panel-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  margin-right: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
