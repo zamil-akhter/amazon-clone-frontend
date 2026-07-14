@@ -5,6 +5,7 @@
   height: 420px;
   padding-left: 15px;
   padding-right: 5px;
+  margin-bottom: 100px; /*remove leter*/
 }
 
 .box {
@@ -12,10 +13,46 @@
   height: 400px;
   width: 100%;
   margin-right: 16px;
-  padding: 18px
+  padding-top: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.box p {
+  margin-bottom: 16px;
+}
+.box span {
+  margin-top: auto;
+  margin-bottom: 10px;
 }
 
-.shop-section div p {
+.shop-section-grid {
+  height: auto;
+  width: 100%;
+  min-height: 280px;
+  /* background-color: aqua; */
+  box-sizing: border-box;
+  overflow: hidden;
+  /* background-image: url("../images/grids/grid-1.jpg");
+  background-size: cover; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.shop-grid {
+  height: 120px;
+  width: 120px;
+  min-height: 80px;
+  /* background-color: antiquewhite; */
+  box-sizing: border-box;
+  overflow: hidden;
+  background-image: url("../images/grids/grid-1.jpg");
+  background-size: cover;
+}
+
+.shop-section p {
   font-size: 1.3rem;
   font-weight: 600;
 }
