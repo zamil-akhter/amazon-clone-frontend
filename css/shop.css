@@ -1,5 +1,4 @@
-
-.hero-bottom-grid {
+.shop-section {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -8,7 +7,7 @@
   padding-right: 5px;
 }
 
-.hero-bottom-grid div {
+.shop-section div {
   background-color: white;
   height: 100%;
   width: 100%;
@@ -16,11 +15,13 @@
   padding: 20px;
 }
 
-.hero-bottom-grid div p {
+.shop-section div p {
   font-size: 1.3rem;
   font-weight: 600;
 }
 
-.grid-first {
-  overflow: hidden;
+.box {
+  background-color: green;
+  height: 100px;
+  width: 100px;
 }
