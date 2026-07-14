@@ -7,21 +7,15 @@
   padding-right: 5px;
 }
 
-.shop-section div {
-  background-color: white;
-  height: 100%;
+.box {
+  background-color: pink;
+  height: 400px;
   width: 100%;
-  margin-right: 20px;
-  padding: 20px;
+  margin-right: 16px;
+  padding: 18px
 }
 
 .shop-section div p {
   font-size: 1.3rem;
   font-weight: 600;
-}
-
-.box {
-  background-color: green;
-  height: 100px;
-  width: 100px;
 }
