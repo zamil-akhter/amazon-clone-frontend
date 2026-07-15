@@ -1,0 +1,78 @@
+/* Section 1 */
+.footer-section1{
+    background-color: #37475A;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+/* Footer section 2 */
+
+.footer-section2{
+    background-color: #232F3E;
+    height: 350px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: row;
+    font-size: 0.85rem;
+    padding-top: 50px;
+}
+
+.footer-container p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer-container ul{
+    list-style-type: none;
+    display: inline;
+}
+
+.footer-container li{
+    margin-top: 8px;
+}
+
+
+/* Footer Section 3 */
+.footer-section3{
+    background-color: #232F3E;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    border-top: 0.1px solid grey;
+}
+
+.footer-section3 div{
+    /* background-color: red; */
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.80rem;
+    border: 0.1px solid grey;
+    padding: 2px 20px 2px 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 2px;
+}
+
+/* Section 4 */
+.footer-section4{
+    background-color: #131A22;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.85rem;
+}

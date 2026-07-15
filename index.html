@@ -1,215 +1,266 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/shop.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Amazon</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="css/header.css" />
-  <link rel="stylesheet" href="css/hero.css" />
-  <link rel="stylesheet" href="css/shop.css" />
-</head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="navbar">
+        <div class="nav-logo border">
+          <div class="logo"></div>
+        </div>
 
-<body>
-  <!-- Header Section -->
-  <header>
-    <div class="navbar">
-      <div class="nav-logo border">
-        <div class="logo"></div>
-      </div>
+        <div class="nav-address border">
+          <p class="add-first">Deliver to</p>
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add-second">India</p>
+          </div>
+        </div>
 
-      <div class="nav-address border">
-        <p class="add-first">Deliver to</p>
-        <div class="add-icon">
-          <i class="fa-solid fa-location-dot"></i>
-          <p class="add-second">India</p>
+        <div class="nav-search">
+          <select class="search-select">
+            <option>All</option>
+          </select>
+          <input type="text" class="search-input" placeholder="Search Amazon" />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <div class="nav-signin border">
+          <p><span class="nav-first">Hello, sign in</span></p>
+          <p class="nav-second">Account & Lists</p>
+        </div>
+
+        <div class="nav-return border">
+          <p><span class="nav-first">Returns</span></p>
+          <p class="nav-second">& Orders</p>
+        </div>
+
+        <div class="cart border">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p>Cart</p>
         </div>
       </div>
 
-      <div class="nav-search">
-        <select class="search-select">
-          <option>All</option>
-        </select>
-        <input type="text" class="search-input" placeholder="Search Amazon" />
-        <div class="search-icon">
-          <i class="fa-solid fa-magnifying-glass"></i>
+      <div class="panel">
+        <div class="panel-menu border">
+          <i class="fa-solid fa-bars"></i>
+          <p>All</p>
+        </div>
+        <div class="panel-options">
+          <p class="border">Today's Deals</p>
+          <p class="border">Prime Video</p>
+          <p class="border">Gift Cards</p>
+          <p class="border">Sell</p>
+          <p class="border">Registry</p>
+          <p class="border">Customer Service</p>
+        </div>
+
+        <div class="panel-more border">
+          <p>Shop deals in Electronics</p>
         </div>
       </div>
+    </header>
 
-      <div class="nav-signin border">
-        <p><span class="nav-first">Hello, sign in</span></p>
-        <p class="nav-second">Account & Lists</p>
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <div class="hero-slider">
+        <div class="hero-slide" style="background-image: url(&quot;images/hero-image-1.jpg&quot;)"></div>
+        <div class="hero-slide" style="background-image: url(&quot;images/hero-image-2.jpg&quot;)"></div>
+        <div class="hero-slide" style="background-image: url(&quot;images/hero-image-3.jpg&quot;)"></div>
+        <div class="hero-slide" style="background-image: url(&quot;images/hero-image-4.jpg&quot;)"></div>
       </div>
 
-      <div class="nav-return border">
-        <p><span class="nav-first">Returns</span></p>
-        <p class="nav-second">& Orders</p>
+      <div class="hero-msg">
+        <p>
+          You are on Amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.
+          <a>Click here to go to amazon.in</a>
+        </p>
       </div>
 
-      <div class="cart border">
-        <i class="fa-solid fa-cart-shopping"></i>
-        <p>Cart</p>
+      <div class="hero-shop-section">
+        <div class="box">
+          <p class="grid-heading">Appliances for your home | Up to 55% off</p>
+          <div class="hero-shop-section-grid">
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-1.jpg&quot;)"></div>
+              <p class="grid-detail">Air conditioners</p>
+            </div>
+
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-2.jpg&quot;)"></div>
+              <p class="grid-detail">Refrigerators</p>
+            </div>
+
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-3.jpg&quot;)"></div>
+              <p class="grid-detail">Microwaves</p>
+            </div>
+
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-4.jpg&quot;)"></div>
+              <p class="grid-detail">Washing machines</p>
+            </div>
+          </div>
+          <span class="more-details-shop"><a href="#">See more</a></span>
+        </div>
+
+        <div class="box">
+          <p class="grid-heading">Revamp your home in style</p>
+          <div class="hero-shop-section-grid">
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-5.jpg&quot;)"></div>
+              <p class="grid-detail">Cushion covers, bedsheets & more</p>
+            </div>
+
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-6.jpg&quot;)"></div>
+              <p class="grid-detail">Figurines, vases & more</p>
+            </div>
+
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-7.jpg&quot;)"></div>
+              <p class="grid-detail">Home Storage</p>
+            </div>
+
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-8.jpg&quot;)"></div>
+              <p class="grid-detail">Lighting solutions</p>
+            </div>
+          </div>
+          <span class="more-details-shop"><a href="#">See more</a></span>
+        </div>
+
+        <div class="box">
+          <p class="grid-heading">Starting ₹49 | Deals on home essentials</p>
+          <div class="hero-shop-section-grid">
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-9.jpg&quot;)"></div>
+              <p class="grid-detail">Cleaning supplies</p>
+            </div>
+
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-10.jpg&quot;)"></div>
+              <p class="grid-detail">Bathroom accessories</p>
+            </div>
+
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-11.jpg&quot;)"></div>
+              <p class="grid-detail">Home tools</p>
+            </div>
+
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-12.jpg&quot;)"></div>
+              <p class="grid-detail">Wallpapers</p>
+            </div>
+          </div>
+          <span class="more-details-shop"><a href="#">See more</a></span>
+        </div>
+
+        <div class="box">
+          <p class="grid-heading">Up to 50% off | Baby care & toys | Amazon Brands</p>
+          <div class="hero-shop-section-grid">
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-13.jpg&quot;)"></div>
+              <p class="grid-detail">Up to 50% off | Baby diapers & wipes</p>
+            </div>
+
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-14.jpg&quot;)"></div>
+              <p class="grid-detail">Up to 50% off | Ride ons</p>
+            </div>
+
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-15.jpg&quot;)"></div>
+              <p class="grid-detail">Starting ₹649 | RC cars</p>
+            </div>
+
+            <div>
+              <div class="hero-shop-grid" style="background-image: url(&quot;/images/grids/grid-16.jpg&quot;)"></div>
+              <p class="grid-detail">Up to 50% off | Baby safety essentials</p>
+            </div>
+          </div>
+          <span class="more-details-shop"><a href="#">See more</a></span>
+        </div>
       </div>
     </div>
 
-    <div class="panel">
-      <div class="panel-menu border">
-        <i class="fa-solid fa-bars"></i>
-        <p>All</p>
-      </div>
-      <div class="panel-options">
-        <p class="border">Today's Deals</p>
-        <p class="border">Prime Video</p>
-        <p class="border">Gift Cards</p>
-        <p class="border">Sell</p>
-        <p class="border">Registry</p>
-        <p class="border">Customer Service</p>
+    <!-- Shop Section -->
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-section1">
+        <p>Back to top</p>
       </div>
 
-      <div class="panel-more border">
-        <p>Shop deals in Electronics</p>
-      </div>
-    </div>
-  </header>
-
-  <!-- Hero Section -->
-  <div class="hero-section">
-    <div class="hero-slider">
-      <div class="hero-slide" style="background-image: url(&quot;images/hero-image-1.jpg&quot;)"></div>
-      <div class="hero-slide" style="background-image: url(&quot;images/hero-image-2.jpg&quot;)"></div>
-      <div class="hero-slide" style="background-image: url(&quot;images/hero-image-3.jpg&quot;)"></div>
-      <div class="hero-slide" style="background-image: url(&quot;images/hero-image-4.jpg&quot;)"></div>
-    </div>
-
-    <div class="hero-msg">
-      <p>You are on Amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.
-        <a>Click here to go to amazon.in</a>
-      </p>
-    </div>
-
-    <div class="hero-shop-section">
-
-      <div class="box">
-        <p class="grid-heading">Appliances for your home | Up to 55% off</p>
-        <div class="hero-shop-section-grid">
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-1.jpg')"></div>
-            <p class="grid-detail">Air conditioners</p>
-          </div>
-
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-2.jpg')"></div>
-            <p class="grid-detail">Refrigerators</p>
-          </div>
-
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-3.jpg')"></div>
-            <p class="grid-detail">Microwaves</p>
-          </div>
-
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-4.jpg')"></div>
-            <p class="grid-detail">Washing machines</p>
-          </div>
-
+      <div class="footer-section2">
+        <div class="footer-container">
+          <p>Get to Know Us</p>
+          <ul>
+            <li>About Amazon</li>
+            <li>Careers</li>
+            <li>Press Releases</li>
+            <li>Amazon Science</li>
+          </ul>
         </div>
-        <span class="more-details-shop"><a href="#">See more</a></span>
-      </div>
 
-      <div class="box">
-        <p class="grid-heading">Revamp your home in style</p>
-        <div class="hero-shop-section-grid">
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-5.jpg')"></div>
-            <p class="grid-detail">Cushion covers, bedsheets & more</p>
-          </div>
-
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-6.jpg')"></div>
-            <p class="grid-detail">Figurines, vases & more</p>
-          </div>
-
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-7.jpg')"></div>
-            <p class="grid-detail">Home Storage</p>
-          </div>
-
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-8.jpg')"></div>
-            <p class="grid-detail">Lighting solutions</p>
-          </div>
-
+        <div class="footer-container">
+          <p>Connect with Us</p>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+          </ul>
         </div>
-        <span class="more-details-shop"><a href="#">See more</a></span>
-      </div>
-
-      <div class="box">
-        <p class="grid-heading">Starting ₹49 | Deals on home essentials</p>
-        <div class="hero-shop-section-grid">
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-9.jpg')"></div>
-            <p class="grid-detail">Cleaning supplies</p>
-          </div>
-
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-10.jpg')"></div>
-            <p class="grid-detail">Bathroom accessories</p>
-          </div>
-
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-11.jpg')"></div>
-            <p class="grid-detail">Home tools</p>
-          </div>
-
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-12.jpg')"></div>
-            <p class="grid-detail">Wallpapers</p>
-          </div>
-
+        <div class="footer-container">
+          <p>Make Money with Us</p>
+          <ul>
+            <li>Sell on Amazon</li>
+            <li>Sell under Amazon Accelerator</li>
+            <li>Protect and Build Your Brand</li>
+            <li>Amazon Global Selling</li>
+            <li>Supply to Amazon</li>
+            <li>Become an Affiliate</li>
+            <li>Fulfilment by Amazon</li>
+            <li>Advertise Your Products</li>
+            <li>Amazon Pay on Merchants</li>
+          </ul>
         </div>
-        <span class="more-details-shop"><a href="#">See more</a></span>
-      </div>
-
-      <div class="box">
-        <p class="grid-heading">Up to 50% off | Baby care & toys | Amazon Brands</p>
-        <div class="hero-shop-section-grid">
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-13.jpg')"></div>
-            <p class="grid-detail">Up to 50% off | Baby diapers & wipes</p>
-          </div>
-
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-14.jpg')"></div>
-            <p class="grid-detail">Up to 50% off | Ride ons</p>
-          </div>
-
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-15.jpg')"></div>
-            <p class="grid-detail">Starting ₹649 | RC cars</p>
-          </div>
-
-          <div>
-            <div class="hero-shop-grid" style="background-image: url('/images/grids/grid-16.jpg')"></div>
-            <p class="grid-detail">Up to 50% off | Baby safety essentials</p>
-          </div>
-
+        <div class="footer-container">
+          <p>Let Us Help You</p>
+          <ul>
+            <li>Your Account</li>
+            <li>Returns Centre</li>
+            <li>Recalls and Product Safety Alerts</li>
+            <li>100% Purchase Protection</li>
+            <li>Amazon App Download</li>
+            <li>Help</li>
+          </ul>
         </div>
-        <span class="more-details-shop"><a href="#">See more</a></span>
       </div>
 
+      <div class="footer-section3">
+        <div>English</div>
+        <div>India</div>
+      </div>
 
-
-
-    </div>
-  </div>
-
-  <!-- Shop Section -->
-
-
-</body>
-
+      <div class="footer-section4">
+        <span>Conditions of Use & Sale Privacy Notice Interest-Based Ads</span>
+        <h1></h1>
+        <span>© 1996-2026, Amazon.com, Inc. or its affiliates</span>
+      </div>
+    </footer>
+  </body>
 </html>
