@@ -58,12 +58,24 @@
     justify-content: center;
     align-items: center;
     font-size: 0.80rem;
-    border: 0.1px solid grey;
     padding: 2px 20px 2px 20px;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 2px;
 }
+.section-details{
+    border: 0.1px solid grey;
+}
+
+.logo-amazon {
+  background-image: url("../images/amazon-logo.png");
+  color: #0f1111;
+  background-size: cover;
+  width: 120px;
+  height: 40px;
+  filter: brightness(0.8) invert(1);
+}
+
 
 /* Section 4 */
 .footer-section4{
